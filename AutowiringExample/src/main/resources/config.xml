@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean name="emp" class="Autowiring.Employee"  scope="prototype">
+<property name="name" value="SUuan"/>
+<property name="id" value="5040162"/>
+</bean>
+
+<bean name="adr1" class="Autowiring.Address">
+<property name="city" value="USA"/>
+</bean>
+
+</beans>
